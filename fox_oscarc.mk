@@ -20,18 +20,18 @@ $(call inherit-product, $(LOCAL_PATH)/twrp.mk)
 $(call inherit-product, $(LOCAL_PATH)/fox.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := fox_oscar
-PRODUCT_DEVICE := oscar
+PRODUCT_NAME := fox_oscarc
+PRODUCT_DEVICE := oscarc
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3471
+PRODUCT_MODEL := RMX3478
 PRODUCT_MANUFACTURER := realme
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="RE54CBL1-user 14 UKQ1.230924.001 S.1ca575d_5b9-11cfbb release-keys" \
-    BuildFingerprint=realme/RMX3471/RE54CBL1:14/UKQ1.230924.001/S.1ca575d_5b9-11cfbb:user/release-keys \
-    DeviceName=RE54CBL1 \
-    DeviceProduct=RE54CBL1 \
-    SystemDevice=RE54CBL1 \
-    SystemName=RE54CBL1
+    BuildDesc="RE547D-user 14 UKQ1.230924.001 S.1ca577a_1a33b-11cfd8 release-keys" \
+    BuildFingerprint=realme/RMX3478/RE547D:14/UKQ1.230924.001/S.1ca577a_1a33b-11cfd8:user/release-keys \
+    DeviceName=RE547D \
+    DeviceProduct=RE547D \
+    SystemDevice=RE547D \
+    SystemName=RE547D
